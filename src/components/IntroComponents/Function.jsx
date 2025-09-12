@@ -9,7 +9,7 @@ export const Func = React.forwardRef(({ isLoading }, ref) => {
     // Handle navigation to /home
     const handleStart = () => {
         if (!isLoading) {
-            navigate("/mln131");
+            navigate("/hcm202");
         }
     };
 

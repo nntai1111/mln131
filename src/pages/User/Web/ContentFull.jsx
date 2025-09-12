@@ -106,7 +106,7 @@ const SocialismApp = () => {
                     className="inline-block px-6 py-3 bg-gradient-to-r from-red-500 to-red-600 
                text-white font-semibold rounded-full shadow-lg border-2 border-white
                animate-bounce hover:shadow-xl transition-all"
-                    onClick={() => navigate("/mln131/test")}
+                    onClick={() => navigate("/hcm202/test")}
                 >
                     Ôn tập ngay
                 </motion.a>

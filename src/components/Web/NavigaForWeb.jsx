@@ -43,32 +43,32 @@ const NavigaForWeb = () => {
         {/* Right Section: Additional Links */}
         <div className="flex items-center gap-8 ml-auto text-lg">
           <Link
-            to="/mln131"
-            className={` flex items-center gap-2 px-4 py-2 rounded-md transition-all duration-300 ease-in-out  ${location.pathname === "/mln131" ? "bg-[#f15a5a] text-white" : "hover:bg-red-100 hover:text-red-500"
+            to="/hcm202"
+            className={` flex items-center gap-2 px-4 py-2 rounded-md transition-all duration-300 ease-in-out  ${location.pathname === "/hcm202" ? "bg-[#f15a5a] text-white" : "hover:bg-red-100 hover:text-red-500"
               }`}
           >
             <FaHome className=" " />
             {shortMenu ? "Trang..." : "Trang chủ"}
           </Link>
           <Link
-            to="/mln131/content"
-            className={` flex items-center gap-2 px-4 py-2 rounded-md transition-all duration-300 ease-in-out  ${location.pathname === "/mln131/content" ? "bg-[#f15a5a] text-white" : "hover:bg-red-100 hover:text-red-500"
+            to="/hcm202/content"
+            className={` flex items-center gap-2 px-4 py-2 rounded-md transition-all duration-300 ease-in-out  ${location.pathname === "/hcm202/content" ? "bg-[#f15a5a] text-white" : "hover:bg-red-100 hover:text-red-500"
               }`}
           >
             <Book className="" />
             {shortMenu ? "Nội..." : "Nội dung"}
           </Link>
           <Link
-            to="/mln131/analysis"
-            className={` flex items-center gap-2 px-4 py-2 rounded-md transition-all duration-300 ease-in-out  ${location.pathname === "/mln131/analysis" ? "bg-[#f15a5a] text-white" : "hover:bg-red-100 hover:text-red-500"
+            to="/hcm202/analysis"
+            className={` flex items-center gap-2 px-4 py-2 rounded-md transition-all duration-300 ease-in-out  ${location.pathname === "/hcm202/analysis" ? "bg-[#f15a5a] text-white" : "hover:bg-red-100 hover:text-red-500"
               }`}
           >
             <FaChartBar className="" />
             {shortMenu ? "Phân..." : "Phân tích kết luận"}
           </Link>
           <Link
-            to="/mln131/test"
-            className={`flex items-center gap-2 px-4 py-2 rounded-md transition-all duration-300 ease-in-out  ${location.pathname === "/mln131/test" ? "bg-[#f15a5a] text-white" : "hover:bg-red-100 hover:text-red-500"
+            to="/hcm202/test"
+            className={`flex items-center gap-2 px-4 py-2 rounded-md transition-all duration-300 ease-in-out  ${location.pathname === "/hcm202/test" ? "bg-[#f15a5a] text-white" : "hover:bg-red-100 hover:text-red-500"
               }`}
           >
             <FaBook className="" />

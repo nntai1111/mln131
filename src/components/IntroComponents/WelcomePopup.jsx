@@ -22,12 +22,12 @@ export const WelcomePopup = ({ onClose }) => {
         className="fixed inset-0 flex items-center justify-center z-40">
         <div className="bg-white/10 backdrop-blur-md p-6 md:p-8 rounded-xl shadow-2xl max-w-2xl w-11/12 text-white border border-white/20 flex flex-col items-center justify-center">
           <h1 className="text-3xl md:text-5xl font-bold mb-6 text-center font-[Cursive]">
-            Welcome to MLN131
+            Welcome to HCM202
           </h1>
 
           <div className="space-y-4 text-center text-sm md:text-base leading-relaxed mb-6">
             <p>
-              MLN131 - <span className="text-yellow-200 font-medium">Chủ nghĩa xã hội khoa học</span>, được xây dựng bởi Team 2, là hành trình khám phá lý luận Mác - Lênin về chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội.
+              HCM202 - <span className="text-yellow-200 font-medium">Chủ nghĩa xã hội khoa học</span>, được xây dựng bởi Team 2, là hành trình khám phá lý luận Mác - Lênin về chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội.
             </p>
 
             <div className="flex items-center justify-center space-x-2 py-1">

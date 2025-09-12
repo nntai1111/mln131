@@ -30,7 +30,7 @@ function App() {
           <Route path="/" element={<Navigate to="/intro" />} />
           <Route path="/intro" element={<Intro />}
           />
-          <Route path="/mln131" element={<Home />}>
+          <Route path="/hcm202" element={<Home />}>
             {/* <Route index element={<Navigate to="learnAboutEmo" replace />} /> */}
             <Route path="" element={<LearnAboutEmo />} />
             <Route path="content" element={<ContentFull />} />

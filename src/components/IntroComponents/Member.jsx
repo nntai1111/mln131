@@ -63,7 +63,7 @@ export const MemberIntro = React.forwardRef(({ onConfirm, isLoading }, ref) => {
                 {/* Center Banner */}
                 <div className="bg-gray-800 bg-opacity-70 backdrop-blur-sm text-white text-center py-4 px-6 rounded-lg mb-8">
                     <h2 className="text-3xl font-bold">Team 2</h2>
-                    <p className="text-sm italic">	Scientific socialism(MLN131)_Half1_SE1734</p>
+                    <p className="text-sm italic">	Scientific socialism(HCM202)_Half1_SE1734</p>
                 </div>
 
                 {/* Bottom Row */}
