@@ -127,7 +127,6 @@ const ImproveEmotion = () => {
         className="text-center"
       >
         <motion.a
-          href="#"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           className="inline-block px-6 py-3 mt-12 bg-gradient-to-r from-red-500 to-red-600 

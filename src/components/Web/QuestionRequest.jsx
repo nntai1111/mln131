@@ -7,7 +7,9 @@ const QuestionRequest = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [openQuestion, setOpenQuestion] = useState(null);
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   useEffect(() => {
     try {
       setQuestions(data);

@@ -21,6 +21,7 @@ import Intro from "./pages/User/Web/Intro";
 import TestEmotion from "./pages/User/Web/TestEmotion";
 import ContentFull from "./pages/User/Web/ContentFull";
 import Analysis from "./pages/User/Web/Analysis";
+import QuestionRequest from "./components/Web/QuestionRequest";
 function App() {
   return (
     <>
@@ -34,7 +35,7 @@ function App() {
             {/* <Route index element={<Navigate to="learnAboutEmo" replace />} /> */}
             <Route path="" element={<LearnAboutEmo />} />
             <Route path="content" element={<ContentFull />} />
-            <Route path="analysis" element={<Analysis />} />
+            <Route path="analysis" element={<QuestionRequest />} />
             <Route path="test" element={<TestEmotion />} />
           </Route>
 

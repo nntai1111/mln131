@@ -13,7 +13,9 @@ const BackGround = () => {
   const [isMobile, setIsMobile] = useState(
     typeof window !== "undefined" ? window.innerWidth < MOBILE_MAX_WIDTH : false
   );
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   useEffect(() => {
     const handleScroll = () => {
       setScrollY(window.scrollY);
@@ -74,10 +76,10 @@ const BackGround = () => {
         <div>
           <ImproveEmotion />
         </div>
-
+        {/* 
         <div>
           <QuestionRequest />
-        </div>
+        </div> */}
 
       </>
     </>

@@ -1,67 +1,73 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const SocialismPage2 = () => {
-    const [activeSection, setActiveSection] = useState('material');
+const HoChiMinhThought = () => {
+    const [activeSection, setActiveSection] = useState('proletarian');
+
     const sections = {
-        material: {
-            title: "Tiền đề vật chất",
+        proletarian: {
+            title: "Con đường cách mạng vô sản",
             content: (
-                <p className="text-lg leading-relaxed text-gray-900 text-left">
-                    Sự phát triển cao của các lực lượng sản xuất dưới chủ nghĩa tư bản dẫn đến mâu thuẫn giữa tính chất xã hội hóa của sản xuất và hình thức chiếm hữu tư nhân về tư liệu sản xuất. Theo C. Mác và Ph. Ăngghen, khi các lực lượng sản xuất đạt đến một trình độ nhất định, chủ nghĩa tư bản trở thành lực cản đối với sự tiến bộ xã hội, đòi hỏi phải thay thế bằng chế độ công hữu về tư liệu sản xuất.
-                </p>
+                <div className="text-lg text-gray-900">
+                    <p>+ Hồ Chí Minh đã không chọn con đường cách mạng tư sản vì nhận thấy nó không giải phóng triệt để được công nông và vẫn áp bức thuộc địa.</p>
+                    <p>+ Sau khi tiếp cận Luận cương của Lênin về vấn đề dân tộc và thuộc địa, Người đã tìm thấy con đường cứu nước, giải phóng dân tộc theo con đường cách mạng vô sản và khẳng định: <strong>"Muốn cứu nước và giải phóng dân tộc không có con đường nào khác con đường cách mạng vô sản."</strong></p>
+                </div>
             ),
             images: [
                 'https://images.unsplash.com/photo-1516321318423-ffd3916b6e90?auto=format&fit=crop&w=300&q=80',
                 'https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=300&q=80'
             ]
         },
-        social: {
-            title: "Tiền đề xã hội",
+        leadership: {
+            title: "Đảng Cộng sản lãnh đạo",
             content: (
-                <p className="text-lg leading-relaxed text-gray-900 text-left">
-                    Sự trưởng thành của giai cấp công nhân với ý thức đấu tranh giai cấp và sứ mệnh lịch sử. Giai cấp công nhân, dưới sự lãnh đạo của Đảng Cộng sản, thực hiện cách mạng xã hội chủ nghĩa để lật đổ chủ nghĩa tư bản và thiết lập quyền lực của nhân dân lao động.
-                </p>
+                <div className="text-lg text-gray-900">
+                    <p>+ Hồ Chí Minh khẳng định vai trò lãnh đạo tuyệt đối của Đảng Cộng sản - đội tiên phong của giai cấp công nhân và nhân dân lao động, đồng thời là Đảng của cả dân tộc Việt Nam.</p>
+                    <p>+ Trong tác phẩm <strong>"Đường cách mệnh" (1927)</strong>, Người đã nhấn mạnh: <strong>"Trước hết phải có đảng cách mệnh, để trong thì vận động và tổ chức dân chúng, ngoài thì liên lạc với dân tộc bị áp bức và vô sản giai cấp mọi nơi. Đảng có vững cách mệnh mới thành công, cũng như người cầm lái có vững thuyền mới chạy."</strong></p>
+                </div>
             ),
             images: [
                 'https://images.unsplash.com/photo-1497436072909-60f69c6c6b76?auto=format&fit=crop&w=300&q=80',
                 'https://images.unsplash.com/photo-1528183429752-0409130e9d1a?auto=format&fit=crop&w=300&q=80'
             ]
         },
-        historical: {
-            title: "Điều kiện lịch sử",
+        unity: {
+            title: "Đại đoàn kết toàn dân tộc",
             content: (
-                <p className="text-lg leading-relaxed text-gray-900 text-left">
-                    Cách mạng Tháng Mười Nga (1917) là minh chứng đầu tiên cho thấy chủ nghĩa xã hội có thể ra đời ở các quốc gia lạc hậu về kinh tế nếu có sự lãnh đạo đúng đắn. V.I. Lênin bổ sung rằng ở những nước chưa trải qua giai đoạn phát triển đầy đủ của chủ nghĩa tư bản, cần thực hiện thời kỳ quá độ gián tiếp thông qua các bước trung gian như công nghiệp hóa, hợp tác hóa nông nghiệp và hiện đại hóa kinh tế.
-                </p>
+                <div className="text-lg text-gray-900">
+                    <p>+ Hồ Chí Minh đã kế thừa và phát triển lý luận Mác - Lênin về cách mạng là sự nghiệp của quần chúng, nhấn mạnh vai trò của nhân dân: <strong>"Dân là có tất cả, trên đời này không gì quý bằng dân, được lòng dân thì được tất cả, mất lòng dân thì mất tất cả."</strong></p>
+                    <p>+ Người kêu gọi toàn thể dân tộc, không phân biệt giai cấp, tôn giáo, giới tính, tuổi tác, đứng lên đấu tranh chống ngoại xâm. Trong đó, công nhân và nông dân được xác định là lực lượng nền tảng, gốc của cách mạng.</p>
+                </div>
             ),
             images: [
                 'https://images.unsplash.com/photo-1531219572328-a0171b4448a3?auto=format&fit=crop&w=300&q=80',
                 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=300&q=80'
             ]
         },
-        cause: {
-            title: "Nguyên nhân sâu xa",
+        creativity: {
+            title: "Sáng tạo và chủ động",
             content: (
-                <p className="text-lg leading-relaxed text-gray-900 text-left">
-                    Mâu thuẫn giữa giai cấp công nhân và giai cấp tư sản trong chủ nghĩa tư bản dẫn đến đấu tranh giai cấp ngày càng gay gắt, cuối cùng kết thúc bằng cách mạng vô sản. Đây là quy luật tất yếu theo học thuyết về hình thái kinh tế - xã hội của chủ nghĩa Mác - Lênin.
-                </p>
-            ),
-            images: [
-                'https://images.unsplash.com/photo-1578916171728-46d996de1117?auto=format&fit=crop&w=300&q=80',
-                'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=300&q=80'
-            ]
-        },
-        practice: {
-            title: "Thực tiễn Việt Nam",
-            content: (
-                <p className="text-lg leading-relaxed text-gray-900 text-left">
-                    Ở Việt Nam, điều kiện ra đời của chủ nghĩa xã hội được xác định bởi mâu thuẫn giữa nhân dân lao động với thực dân và phong kiến, kết hợp với sự lãnh đạo của Đảng Cộng sản Việt Nam. Cách mạng Tháng Tám (1945) đã tạo tiền đề cho việc xây dựng chủ nghĩa xã hội ở miền Bắc và sau đó trên cả nước sau năm 1975.
-                </p>
+                <div className="text-lg text-gray-900">
+                    <p>+ Hồ Chí Minh sớm chỉ rõ mối quan hệ bình đẳng, hỗ trợ lẫn nhau giữa cách mạng thuộc địa và cách mạng vô sản ở chính quốc, không phải là mối quan hệ lệ thuộc. Người khẳng định cách mạng giải phóng dân tộc ở thuộc địa có thể giành thắng lợi trước cách mạng vô sản ở chính quốc.</p>
+                    <p>+ Cách mạng thuộc địa có vị trí, vai trò, tầm quan trọng đặc biệt đối với chủ nghĩa đế quốc, là nơi suy tồn, phát triển của chủ nghĩa đế quốc.</p>
+                </div>
             ),
             images: [
                 'https://images.unsplash.com/photo-1516321318423-ffd3916b6e90?auto=format&fit=crop&w=300&q=80',
                 'https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=300&q=80'
+            ]
+        },
+        violence: {
+            title: "Bạo lực cách mạng",
+            content: (
+                <div className="text-lg text-gray-900">
+                    <p>+ Kế thừa lý luận Mác - Lênin, Hồ Chí Minh khẳng định sự cần thiết của bạo lực cách mạng để chống lại bạo lực phản cách mạng, giành và giữ chính quyền.</p>
+                    <p>+ Bạo lực cách mạng được thể hiện bằng bạo lực của quần chúng, kết hợp chặt chẽ giữa lực lượng chính trị và lực lượng vũ trang. Hình thức đấu tranh phải linh hoạt, phù hợp với tình hình cụ thể.</p>
+                </div>
+            ),
+            images: [
+                'https://images.unsplash.com/photo-1497436072909-60f69c6c6b76?auto=format&fit=crop&w=300&q=80',
+                'https://images.unsplash.com/photo-1528183429752-0409130e9d1a?auto=format&fit=crop&w=300&q=80'
             ]
         }
     };
@@ -74,15 +80,16 @@ const SocialismPage2 = () => {
                 transition={{ duration: 0.5 }}
                 className="rounded-lg p-6 mb-6"
             >
-                <h2 className="text-3xl font-bold text-gray-900 text-left">Điều kiện ra đời chủ nghĩa xã hội</h2>
+                <h2 className="text-3xl font-bold text-[#ff6969]">II. Tư tưởng Hồ Chí Minh về Cách mạng Giải phóng Dân tộc</h2>
             </motion.div>
-            <div className="grid grid-cols-2 md:grid-cols-5 gap-3 mb-6 justify-start">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
                 {Object.keys(sections).map((key) => (
                     <motion.button
                         key={key}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className={`p-3 rounded-lg text-gray-900 font-semibold transition-colors ${activeSection === key ? 'bg-red-500 text-white' : 'bg-gray-200 hover:bg-gray-300'}`}
+                        className={`p-3 rounded-lg text-gray-900 font-semibold transition-colors ${activeSection === key ? 'bg-red-500 text-white' : 'bg-gray-200 hover:bg-gray-300'
+                            }`}
                         onClick={() => setActiveSection(key)}
                     >
                         {sections[key].title}
@@ -121,4 +128,4 @@ const SocialismPage2 = () => {
     );
 };
 
-export default SocialismPage2;
+export default HoChiMinhThought;

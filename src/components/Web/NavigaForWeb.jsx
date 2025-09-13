@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { FaHome, FaHistory, FaChartBar, FaBook } from "react-icons/fa"; // Importing icons for nav links
+import { FaHome, FaHistory, FaChartBar, FaBook, FaComments } from "react-icons/fa"; // Importing icons for nav links
 import { Book } from "lucide-react";
 
 // Hook to check screen size
@@ -63,8 +63,9 @@ const NavigaForWeb = () => {
             className={` flex items-center gap-2 px-4 py-2 rounded-md transition-all duration-300 ease-in-out  ${location.pathname === "/hcm202/analysis" ? "bg-[#f15a5a] text-white" : "hover:bg-red-100 hover:text-red-500"
               }`}
           >
-            <FaChartBar className="" />
-            {shortMenu ? "Phân..." : "Phân tích kết luận"}
+            {/* <FaChartBar className="" /> */}
+            <FaComments className="" />
+            {shortMenu ? "Câu..." : "Câu hỏi thường gặp"}
           </Link>
           <Link
             to="/hcm202/test"
