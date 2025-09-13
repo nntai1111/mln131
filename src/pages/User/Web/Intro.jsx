@@ -59,8 +59,8 @@ const Intro = () => {
     <div
       className="min-h-screen w-full flex flex-col items-center justify-center relative"
       style={{
-        backgroundImage: `url('/cnxh1.jpg')`,
-        // backgroundImage: `url('/bg_Question.webp')`,
+        backgroundImage: `url('/hcm6.png')`,
+        // backgroundImage: `url('/cnxh1.jpg')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -131,7 +131,7 @@ const Intro = () => {
             exit={{ opacity: 0, x: -100 }}
             transition={{ duration: 0.5, ease: "easeInOut" }}
           >
-            <ContentList
+            <ContentList2
               ref={question2Ref}
               onConfirm={() => handleConfirm(1)}
               isLoading={false}
@@ -147,7 +147,7 @@ const Intro = () => {
             exit={{ opacity: 0, x: -100 }}
             transition={{ duration: 0.5, ease: "easeInOut" }}
           >
-            <ContentList2
+            <ContentList
               ref={question3Ref}
               onConfirm={() => handleConfirm(2)}
               isLoading={false}

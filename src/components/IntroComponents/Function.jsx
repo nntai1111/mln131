@@ -6,7 +6,7 @@ import { FaStar, FaRocket, FaBook, FaBrain } from "react-icons/fa";
 export const Func = React.forwardRef(({ isLoading }, ref) => {
     const navigate = useNavigate();
 
-    // Handle navigation to /home
+    // Handle navigation to /hcm202
     const handleStart = () => {
         if (!isLoading) {
             navigate("/hcm202");
@@ -64,7 +64,7 @@ export const Func = React.forwardRef(({ isLoading }, ref) => {
                 animate={{
                     y: [0, -30, 0],
                     opacity: [0.3, 0.7, 0.3],
-                    scale: [1, 1.2, 1]
+                    scale: [1, 1.2, 1],
                 }}
                 transition={{ duration: 2.5, repeat: Infinity, ease: "easeInOut" }}
                 style={{ filter: "drop-shadow(0 0 8px rgba(168, 85, 247, 0.5))" }}
@@ -77,7 +77,7 @@ export const Func = React.forwardRef(({ isLoading }, ref) => {
                 animate={{
                     y: [0, 30, 0],
                     opacity: [0.3, 0.7, 0.3],
-                    scale: [1, 1.2, 1]
+                    scale: [1, 1.2, 1],
                 }}
                 transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
                 style={{ filter: "drop-shadow(0 0 8px rgba(234, 179, 8, 0.5))" }}
@@ -90,7 +90,7 @@ export const Func = React.forwardRef(({ isLoading }, ref) => {
                 animate={{
                     y: [0, -25, 0],
                     opacity: [0.3, 0.7, 0.3],
-                    scale: [1, 1.2, 1]
+                    scale: [1, 1.2, 1],
                 }}
                 transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
                 style={{ filter: "drop-shadow(0 0 8px rgba(59, 130, 246, 0.5))" }}
@@ -103,7 +103,7 @@ export const Func = React.forwardRef(({ isLoading }, ref) => {
                 animate={{
                     y: [0, 20, 0],
                     opacity: [0.3, 0.7, 0.3],
-                    scale: [1, 1.2, 1]
+                    scale: [1, 1.2, 1],
                 }}
                 transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
                 style={{ filter: "drop-shadow(0 0 8px rgba(34, 197, 94, 0.5))" }}
@@ -151,19 +151,27 @@ export const Func = React.forwardRef(({ isLoading }, ref) => {
                     <div className="space-y-4">
                         <p className="flex items-center justify-center gap-2 mb-4">
                             <FaBook className="text-purple-300 text-2xl" />
-                            <span>Trang web này sẽ giúp bạn có thêm kiến thức sâu sắc về chủ nghĩa xã hội – giai đoạn đầu của hình thái kinh tế - xã hội cộng sản chủ nghĩa, bao gồm khái niệm, bản chất, điều kiện ra đời, 6 đặc trưng cơ bản, và thời kỳ quá độ lên chủ nghĩa xã hội.</span>
+                            <span>
+                                Hiểu tư tưởng Hồ Chí Minh về <span className="font-semibold">độc lập dân tộc</span>: “Không có gì quý hơn độc lập, tự do”. Độc lập phải gắn với hạnh phúc nhân dân, thống nhất lãnh thổ, và con đường cách mạng vô sản.
+                            </span>
                         </p>
                         <p className="flex items-center justify-center gap-2 mb-4">
                             <FaBrain className="text-blue-300 text-2xl" />
-                            <span>Với trọng tâm liên hệ thực tiễn Việt Nam, bạn sẽ hiểu rõ con đường Đổi Mới, kinh tế thị trường định hướng XHCN, và các nhiệm vụ xây dựng xã hội công bằng, dân chủ.</span>
+                            <span>
+                                Khám phá <span className="font-semibold">chủ nghĩa xã hội</span>: Một xã hội không áp bức, nhân dân làm chủ, ấm no, hạnh phúc. Việt Nam tiến lên chủ nghĩa xã hội từ nền nông nghiệp lạc hậu dưới sự lãnh đạo của Đảng Cộng sản.
+                            </span>
                         </p>
                         <p className="flex items-start justify-center gap-2 mb-4">
                             <FaRocket className="text-green-300 text-2xl mt-1 flex-shrink-0" />
-                            <span>Sau khi nắm vững nội dung, chúng mình còn cung cấp thêm các bài test tương tác, câu hỏi ôn tập, và quiz ngắn gọn để bạn củng cố kiến thức, dễ dàng áp dụng vào học tập hoặc nghiên cứu. Từ lý thuyết đến thực tiễn – tất cả chỉ trong một cú click!</span>
+                            <span>
+                                Chúng tôi mang đến bài học lý luận qua nội dung rõ ràng, ví dụ thực tiễn, bài test tương tác và quiz ngắn gọn. Từ tư tưởng Hồ Chí Minh đến thực tiễn Đổi mới – tất cả chỉ trong một cú click!
+                            </span>
                         </p>
                         <p className="flex items-center justify-center gap-2 text-lg font-semibold text-purple-100">
                             <FaStar className="text-yellow-300" />
-                            <span>Hãy cùng trải nghiệm ngay nhé! Bắt đầu bằng cách khám phá phần "Chủ Nghĩa Xã Hội" hoặc thử quiz đầu tiên. Bạn sẵn sàng chưa? 🚀</span>
+                            <span>
+                                Sẵn sàng khám phá tư tưởng Hồ Chí Minh và hành trình xây dựng chủ nghĩa xã hội? Bắt đầu ngay với HCM202! 🚀
+                            </span>
                         </p>
                     </div>
                 </motion.div>
@@ -172,7 +180,7 @@ export const Func = React.forwardRef(({ isLoading }, ref) => {
                 <motion.button
                     onClick={handleStart}
                     disabled={isLoading}
-                    className={`relative px-8 py-4 bg-gradient-to-r from-[#602985] via-[#7b42b0] to-[#a78bfa] text-white rounded-xl font-semibold shadow-lg hover:shadow-xl transform transition-all duration-300 flex items-center gap-3 group ${isLoading ? "opacity-50 cursor-not-allowed" : "hover:from-[#7b42b0] hover:to-[#a78bfa]"
+                    className={`mt-32 relative px-8 py-4 bg-gradient-to-r from-[#602985] via-[#7b42b0] to-[#a78bfa] text-white rounded-xl font-semibold shadow-lg hover:shadow-xl transform transition-all duration-300 flex items-center gap-3 group ${isLoading ? "opacity-50 cursor-not-allowed" : "hover:from-[#7b42b0] hover:to-[#a78bfa]"
                         }`}
                     whileHover={isLoading ? { scale: 1 } : { scale: 1.05 }}
                     whileTap={isLoading ? { scale: 1 } : { scale: 0.98 }}
@@ -225,7 +233,7 @@ export const Func = React.forwardRef(({ isLoading }, ref) => {
 
                 {/* Subtle footer text */}
                 <motion.p
-                    className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-xs text-purple-200 opacity-50 mt-4"
+                    className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-xs text-purple-200 opacity-50 mt-6"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 0.7 }}
                     transition={{ delay: 1 }}

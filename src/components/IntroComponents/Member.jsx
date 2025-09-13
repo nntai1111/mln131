@@ -3,11 +3,11 @@ import { motion } from "framer-motion";
 
 export const MemberIntro = React.forwardRef(({ onConfirm, isLoading }, ref) => {
     const teamMembers = [
-        { name: "Lưu Ka Ka", image: "/nam.jpg" },
-        { name: "Dũng Cao", image: "/nam.jpg" },
-        { name: "Phương Nguyên", image: "/nam.jpg" },
         { name: "Nguyễn Như Tài", image: "/nam.jpg" },
+        { name: "Đặng Thành Phước", image: "/nam.jpg" },
+        { name: "Hoàng Phúc Trọng", image: "/nam.jpg" },
         { name: "Trần Khánh Linh", image: "/nu2.png" },
+        { name: "Vũ Thị Minh Phương", image: "/nu2.png" },
     ];
 
     return (
@@ -63,7 +63,7 @@ export const MemberIntro = React.forwardRef(({ onConfirm, isLoading }, ref) => {
                 {/* Center Banner */}
                 <div className="bg-gray-800 bg-opacity-70 backdrop-blur-sm text-white text-center py-4 px-6 rounded-lg mb-8">
                     <h2 className="text-3xl font-bold">Team 2</h2>
-                    <p className="text-sm italic">	Scientific socialism(HCM202)_Half1_SE1734</p>
+                    <p className="text-sm italic">	Ho Chi Minh Ideology(HCM202)_Half1_SE1736</p>
                 </div>
 
                 {/* Bottom Row */}

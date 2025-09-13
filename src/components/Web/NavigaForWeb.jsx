@@ -27,16 +27,16 @@ const NavigaForWeb = () => {
         {/* Left Section: Logo and Links */}
         <div className="flex items-center gap-3">
           <img
-            src="/logoxhcn1.png"
+            src="/hcm12.png"
             alt="Logo"
-            className="w-15 h-15 object-contain transition-transform duration-300 ease-in-out hover:scale-110"
+            className="w-20 h-15 object-contain transition-transform duration-300 ease-in-out hover:scale-110"
           />
           <Link to="/" className="flex flex-col leading-tight">
             <span className="text-[#ff6969] font-bold text-3xl tracking-wide">
-              Chủ Nghĩa Xã Hội
+              Tư tưởng Hồ Chí Minh
             </span>
             <span className="text-sm text-gray-600 font-bold">
-              Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội
+              Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội
             </span>
           </Link>
         </div>

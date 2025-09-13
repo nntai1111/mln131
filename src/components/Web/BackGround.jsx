@@ -41,6 +41,7 @@ const BackGround = () => {
         <motion.div
           className="absolute top-[8%] left-0 w-full h-screen"
           style={{
+            // backgroundImage: "url('/hcm1.png')",
             backgroundImage: "url('/untitled-0.png')",
             backgroundSize: "cover",
             backgroundPosition: "center",
@@ -68,11 +69,12 @@ const BackGround = () => {
       {/* Nội dung trang */}
       <>
         <div>
-          <ImproveEmotion />
-        </div>
-        <div>
           <IntrFPT />
         </div>
+        <div>
+          <ImproveEmotion />
+        </div>
+
         <div>
           <QuestionRequest />
         </div>

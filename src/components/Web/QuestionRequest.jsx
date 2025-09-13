@@ -53,7 +53,7 @@ const QuestionRequest = () => {
     );
 
   return (
-    <div className="flex flex-col items-center w-full min-h-screen py-16 bg-white">
+    <div className="flex flex-col items-center w-full min-h-screen py-2 bg-white">
       <span className="text-xl font-thin text-red-700 uppercase">
         Bạn có câu hỏi?
       </span>
