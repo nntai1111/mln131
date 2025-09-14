@@ -18,8 +18,8 @@ const HoChiMinhThought = () => {
                 </div>
             ),
             images: [
-                'https://images.unsplash.com/photo-1516321318423-ffd3916b6e90?auto=format&fit=crop&w=300&q=80',
-                'https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=300&q=80'
+                '/hcm4.1.1.jpg',
+                '/hcm4.1.2.jpg'
             ]
         },
         socialism: {
@@ -31,8 +31,7 @@ const HoChiMinhThought = () => {
                 </div>
             ),
             images: [
-                'https://images.unsplash.com/photo-1497436072909-60f69c6c6b76?auto=format&fit=crop&w=300&q=80',
-                'https://images.unsplash.com/photo-1528183429752-0409130e9d1a?auto=format&fit=crop&w=300&q=80'
+                '/untitled-0.png'
             ]
         },
         conditions: {
@@ -45,8 +44,9 @@ const HoChiMinhThought = () => {
                 </div>
             ),
             images: [
-                'https://images.unsplash.com/photo-1531219572328-a0171b4448a3?auto=format&fit=crop&w=300&q=80',
-                'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=300&q=80'
+                '/hcm4.3.1.jpg',
+                '/hcm4.3.2.webp',
+                '/hcm4.3.3.jpg'
             ]
         }
     };
@@ -181,7 +181,7 @@ const HoChiMinhThought = () => {
                                         key={index}
                                         src={src}
                                         alt={`Hình ${index + 1} cho ${sections[key].title}`}
-                                        className="w-40 h-28 object-cover rounded-lg shadow-md"
+                                        className="w-1/3 h-1/3 object-cover rounded-lg shadow-md"
                                         whileHover={{ scale: 1.1 }}
                                         transition={{ duration: 0.3 }}
                                     />
