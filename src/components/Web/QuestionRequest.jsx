@@ -106,7 +106,7 @@ const QuestionRequest = () => {
           Nhóm của chúng tôi luôn sẵn sàng chia sẻ chi tiết về chủ nghĩa xã hội.
         </p>
         <button className="cursor-pointer relative border rounded-xl bg-[#ff5858] max-w-48 h-13 px-3 font-mono font-thin text-white transition-colors duration-10000 ease-linear before:absolute before:right-20 before:top-6 before:-z-[1] before:h-3/4 before:w-2/3 before:origin-center before:-translate-y-1/2 before:translate-x-1/2 before:animate-ping before:rounded-xl before:bg-[#ff9696] hover:bg-[#ff9696] hover:before:bg-[#ff9696] z-2">
-          Talk to our team
+          Liên hệ chúng tôi
         </button>
       </div>
 

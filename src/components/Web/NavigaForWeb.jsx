@@ -60,7 +60,7 @@ const NavigaForWeb = () => {
           </Link>
           <Link
             to="/hcm202/q&a"
-            className={` flex items-center gap-2 px-4 py-2 rounded-md transition-all duration-300 ease-in-out  ${location.pathname === "/hcm202/analysis" ? "bg-[#f15a5a] text-white" : "hover:bg-red-100 hover:text-red-500"
+            className={` flex items-center gap-2 px-4 py-2 rounded-md transition-all duration-300 ease-in-out  ${location.pathname === "/hcm202/q&a" ? "bg-[#f15a5a] text-white" : "hover:bg-red-100 hover:text-red-500"
               }`}
           >
             {/* <FaChartBar className="" /> */}
